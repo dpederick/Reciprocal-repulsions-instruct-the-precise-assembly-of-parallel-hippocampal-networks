@@ -1,9 +1,9 @@
-datafolder = 'F:\Cre-L2 CA1\15\sub\raw data\'; % replace
+datafolder = '';
 reprocesseddirectory = [datafolder 'resampled\']; mkdir(reprocesseddirectory);
 allfilenames = cellstr(ls([datafolder '*.csv']));
-% change to xls if needed. This will load all xls files in the directory
+
 nfiles = length(allfilenames);
-ndatapoints = 100; % can change if you need
+ndatapoints = 100;
 datainds = 1:ndatapoints;
 for i = 1:nfiles
     curdatafile = [datafolder allfilenames{i}]; 
