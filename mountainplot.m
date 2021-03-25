@@ -1,7 +1,7 @@
-x=dlmread('x 100.txt');
-Y=dlmread('y 21.txt');
-z=dlmread('z mch.txt');
-c=dlmread('z gfp.txt');
+x=dlmread('');
+Y=dlmread('');
+z=dlmread('');
+c=dlmread('');
 figure
 colormap(jet)
 z2 = flipud(z);
