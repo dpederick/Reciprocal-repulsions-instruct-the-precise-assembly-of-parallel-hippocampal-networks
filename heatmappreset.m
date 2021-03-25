@@ -1,6 +1,6 @@
-x=dlmread('x 100.txt');
-y=dlmread('y 16.txt');
-z=dlmread('z mch.txt');
+x=dlmread('');
+y=dlmread('');
+z=dlmread('');
 figure
 colormap(hot)
 imagesc(x,y,z)
